@@ -56,9 +56,6 @@ Pengguna | Melihat menu saldo tabungan | Pengguna dapat mengetahui jumlah pemasu
 Pengguna | Memasuki halaman resep makanan | Pengguna dapat melihat beberapa menu mudah yang telah disarankan | ⭐
 
 ## 3. Struktur Data
-
-Cara membuat aneka macam bentuk grafik menggunakan mermaid.js bisa lihat di [https://mermaid.js.org/syntax/entityRelationshipDiagram.html](https://mermaid.js.org/syntax/entityRelationshipDiagram.html) 
-
 ```mermaid
 erDiagram
     Users ||--o{ Login : User_Login
@@ -137,8 +134,11 @@ erDiagram
 ```
 
 ## 4. Arsitektur Sistem
-
-Masih pake mermaid.js juga bisa lihat flowchart di [https://mermaid.js.org/syntax/flowchart.html](https://mermaid.js.org/syntax/flowchart.html)
+```mermaid
+flowchart TD
+  Database-MySQL ==> Web_backend-JavaScript-phpNative ==> Web_Server-Apache ==> Frontend_Web:-HTML-CSS-JavaScript-phpNative
+	
+```
 
 ## 5. Teknologi, Library, dan Framework
 
