@@ -61,8 +61,79 @@ Cara membuat aneka macam bentuk grafik menggunakan mermaid.js bisa lihat di [htt
 
 ```mermaid
 erDiagram
-    RUJAK ||--o{ SAYUR : tersusun
-    PEMBELI ||--|{ RUJAK : beli
+    Users ||--o{ Login : User_Login
+    Login {
+        int id_pengguna
+	var username
+	var email
+	var password
+    }
+	Users ||--o{ Register : User_Register
+	Register {
+	id user
+	var Username
+	var Email
+	var Password
+	var Confirm_Password
+	}
+	Login ||--o{ Saldo_Tabungan : user-dapat-mengecek-saldo
+	Saldo_Tabungan {
+	int Saldo-tabungan
+	var Riwayat-Menabung
+	var Riwayat-pengeluaran
+	}
+	Login ||--o{ Profil : pengguna-dapat-mengisi-profil-setelah-login
+	Profil {
+	img foto-profil
+	icon Social_media
+	var username
+	string pekerjaan
+	}
+	Profil ||--o{ Edit_Profil : Pengguna-dapat-mengedit-profil
+	Edit_Profil{
+	img ganti-foto-profil
+	var ganti-username
+	var tambah-pekerjaan
+	var tambah-social-media
+	}
+	Register ||--o{ Login : User_login_Setelah_Register
+    Users ||--o{  dapat-mengakses-beberapa-fitur-tetapi-tidak-bisa-menyimpan-data : User_tidak_Login
+    Login ||--o{ AksesFitur : userDapatMengakses
+	AksesFitur {
+	int Tabungan
+	var List_Kegiatan
+	var workout
+	var Menu_Utama
+	}
+	AksesFitur||--o{ Fitur_Tabungan: user_mengakses_fitur_yang_ada_dilaman_tabungan
+	Fitur_Tabungan {
+	datetime Tanggal_Menabung
+	int jumlah-yang-ditabung
+	Data Disimpan_didatabase
+	}
+
+	AksesFitur||--o{ List_Kegiatan : user-dapat-menambahkan-jenis-kegiatan
+	List_Kegiatan {
+	var Nama_kegiatan
+	datetime Waktu_kegiatan
+	check List_Check
+	
+	}
+	AksesFitur||--o{ Workout : User-dapat-mengikuti-jadwal-workout-harian
+	Workout {
+	int rep
+	int set
+	Check Check
+	Data Progres_disimpan
+	}
+	AksesFitur ||--o{ Menu_utama : User_dapat_membaca_dimenu_utama
+	Menu_utama {
+	string Artikel
+	String Resep
+	link Tabungan
+	link List_Kegiatan
+	}
+	
 ```
 
 ## 4. Arsitektur Sistem
