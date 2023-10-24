@@ -142,9 +142,7 @@ flowchart TD
 
 ## 5. Teknologi, Library, dan Framework
 
-bla bla bla
+Saya menggunakan PHP NATIVE untuk merancang produk teknologi informasi.
 
 ## 6. Desain User Experience dan User Interface
-
-Bisa load image 
-![Contoh](https://www.figma.com/file/eoIku4dRjOtSuh9BZlMG42/Untitled?type=design&node-id=0%3A1&mode=design&t=dGL6aNI2mYmfykS9-1)
+https://www.figma.com/file/eoIku4dRjOtSuh9BZlMG42/Untitled?type=design&node-id=0-1&mode=design&t=qMqib32rPftQH9qb-0
