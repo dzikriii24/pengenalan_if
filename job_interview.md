@@ -139,10 +139,36 @@ flowchart TD
   Database-MySQL ==> Web_backend-JavaScript-phpNative ==> Web_Server-Apache ==> Frontend_Web:-HTML-CSS-JavaScript-phpNative
 	
 ```
-
 ## 5. Teknologi, Library, dan Framework
 
 Saya menggunakan PHP NATIVE untuk merancang produk teknologi informasi.
 
 ## 6. Desain User Experience dan User Interface
 https://www.figma.com/file/eoIku4dRjOtSuh9BZlMG42/Untitled?type=design&node-id=0-1&mode=design&t=qMqib32rPftQH9qb-0
+
+<img width="500" alt="Screenshot 2023-10-24 221442" src="https://github.com/dzikriii24/pengenalan_if/assets/144420544/85df0a18-9940-46d9-bd69-b8c723847b4c">
+
+<img width="524" alt="Screenshot 2023-10-24 221228" src="https://github.com/dzikriii24/pengenalan_if/assets/144420544/e431f7bf-cf96-44d1-a70e-43db7ea0cc38">
+
+<img width="350" alt="Screenshot 2023-10-24 221454" src="https://github.com/dzikriii24/pengenalan_if/assets/144420544/77e56339-74a9-43cf-a0cd-eda8a12afcb0">
+
+
+## 7. Demonstrasi Video
+
+Link youtube nya
+
+## 8. Bagaimana mesin komputasi dan sistem operasi berperan dalam produk teknologi informasimu ?
+
+Link youtube nya di detik jawaban ini
+
+## 9. Bagaimana algoritma, struktur data, dan bahasa pemrograman berperan dalam produk teknologi informasimu ?
+
+Link youtube nya di detik jawaban ini
+
+## 10. Bagaimana metode pengembangan perangkat lunak / Software Development Life Cycle berperan dalam produk teknologi informasimu ?
+
+Link youtube nya di detik jawaban ini
+
+## 11. Bagaimana database / sistem basis data berperan dalam produk teknologi informasimu ?
+
+Link youtube nya di detik jawaban ini
