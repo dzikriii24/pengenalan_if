@@ -36,7 +36,11 @@ pada tahap ini saya akan mengeksplorasi branding dari produk yang saya buat.
 	
  *to the point
  
--*tidak ada inspirasi desain, membuat sendiri
+## Refernsi Design
+Saya mengambil referensi warna dan layout dari kedua referensi tersebut
+![reffimg](https://github.com/dzikriii24/pengenalan_if/assets/144420544/e0a766fa-a1dd-4e76-8727-29c86c49f69c)
+![refimg](https://github.com/dzikriii24/pengenalan_if/assets/144420544/d33c1721-4c06-4a08-a2ef-0d3e5b2f08a9)
+
 
 ## 2. User Story
 
@@ -154,21 +158,24 @@ https://www.figma.com/file/eoIku4dRjOtSuh9BZlMG42/Untitled?type=design&node-id=0
 
 
 ## 7. Demonstrasi Video
-
-Link youtube nya
+DEMONSTRASI VIDEO
+ 	link : https://youtu.be/lcz7ZGJYOSo?feature=shared
 
 ## 8. Bagaimana mesin komputasi dan sistem operasi berperan dalam produk teknologi informasimu ?
-
-Link youtube nya di detik jawaban ini
+mesin komputasi dan sistem operasi yang berperan dalam pembuatan website
+	link yoytube : https://youtu.be/jW0v_CULJQc?feature=shared
 
 ## 9. Bagaimana algoritma, struktur data, dan bahasa pemrograman berperan dalam produk teknologi informasimu ?
 
-Link youtube nya di detik jawaban ini
+ Algoritma,struktur data dan bahasa pemrograman yang berperan dalam pembuatan produk
+ 	LINK YOUTUBE :https://youtu.be/g_i2Rn-A62Y?feature=shared
 
 ## 10. Bagaimana metode pengembangan perangkat lunak / Software Development Life Cycle berperan dalam produk teknologi informasimu ?
 
-Link youtube nya di detik jawaban ini
+Metode pengembangan perangkat lunak yang berperan dalam produk
+	link youtube : https://youtu.be/viISXDTiV-c?feature=shared
 
 ## 11. Bagaimana database / sistem basis data berperan dalam produk teknologi informasimu ?
 
-Link youtube nya di detik jawaban ini
+Database yang berperan dan ada didalam produk
+	link youtube : https://youtu.be/-_CguoXDFM8?feature=shared
