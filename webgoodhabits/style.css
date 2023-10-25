@@ -1,0 +1,814 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #C4DFDF;
+    font-family: 'League Spartan', sans-serif;
+    min-height: 100vh;
+    height: auto;
+    width: 100%;
+}
+/* halaman 1 */
+.navbar{
+    background-color: #D2E9E9;
+    display: flex;
+    height: 60px;
+}
+.navbar #menu{
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+}
+.navbar #menu:hover {
+    transition: ease-in-out;
+    background-color: white;
+    transition-duration: 500ms;
+}
+.navbar #logo{
+    margin-left: 40px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.navbar #search{
+    background-color: #E3F4F4;
+    height: 30px;
+    width: 400px;
+    margin-left: 200px;
+    margin-top: 15px;
+    border-radius: 15px;
+    border: none;
+    text-align: center;
+    color: black;
+    font-weight: lighter;
+    outline: none;
+}
+#search::placeholder{
+    color: black;
+    font-weight: lighter;
+}
+#search2{
+    height: 15px;
+    width: 15x;
+    margin-top: 22px;
+    margin-left: -30px;
+}
+.content {
+padding-top: 20px;
+padding-bottom: 20px;
+text-align: center;
+background-color: #F8F6F4;
+}
+#text-oppening1 {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: px;
+    font-weight: bold;
+
+}
+#text-oppening2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+#text-oppening3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.caption {
+}
+#p1 {
+}
+.content-img {
+}
+
+.content-1 {
+    background-color: #F8F6F4;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    margin-top: 50px;
+    padding: 20px;
+    height: 200px;
+    width: 150px;
+    margin-left: 190px;
+    border-radius: 15px;
+}
+.content-2 {
+    background-color: #F8F6F4;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    margin-top: 50px;
+    padding: 20px;
+    height: 200px;
+    width: 150px;
+    margin-left: -190px;
+    border-radius: 15px;
+}
+.container-1 {
+    justify-content: space-evenly;
+    display: flex;
+    margin-right: 170px;
+}
+.content-3 {
+    background-color: #F8F6F4;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 20px;
+    height: 200px;
+    width: 150px;
+    margin-left: 190px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+.content-4 {
+    background-color: #F8F6F4;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 20px;
+    height: 200px;
+    width: 150px;
+    margin-left: -190px;
+    border-radius: 15px;
+}
+#img-content {
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+}
+#text-content {
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    font-size: 10px;
+    color: black;
+}
+.copyright {
+    background-color: #F8F6F4;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 30px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 10px;
+}
+/* halaman 1 end */
+
+
+
+/* halaman 2  */
+.button {
+    background-color: #F8F6F4;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    text-align: center;
+    justify-self: center;
+}
+#reg {
+   align-items: center;
+   text-align: center;
+   margin-top: 15px;
+   width: 120px;
+   height: 30px;
+   border-radius: 10px;
+   border: none;
+   background-color: #C4DFDF;
+}
+
+.choice {
+    border: 1px solid white;
+    margin-top: 10px;
+    padding: 20px;
+    text-decoration: none;
+}
+#c1 {
+    padding-bottom: 30px;
+    color: black;
+    text-decoration: none;
+    text-decoration: underline;
+}
+#c2 {
+    padding-bottom: 30px;
+    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+}
+#c3 {
+    padding-bottom: 30px;
+}
+
+/* menu1-end */
+
+/* menulogin */
+.login-page {
+    background-color: #F8F6F4;
+    display: inline-block;
+    justify-content: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    margin-left: 420px;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+#welcome-a {
+    font-weight: bold
+   
+}
+#sysa {
+    font-size: 13px;
+    font-weight: bold;
+
+}
+#uss {
+    font-weight: bold;
+}
+#uss-1 {
+    font-family: sans-serif;
+    font-size: 12px;
+    align-items: center;
+    text-align: center;
+}
+#tab {
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #D2E9E9;
+    text-align: justify;
+    padding-left: 20px;
+    outline: none;
+
+}
+#tab::placeholder {
+    margin-left: 30px;
+
+}
+#sign-in {
+    height: 30px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 80px;
+    border-radius: 10px;
+    border: none;
+    background-color: #D2E9E9;
+}
+#sign-upsign {
+    color: black;
+    text-decoration: none;
+}
+
+/* menu login end */
+
+/* Sign-up */
+.signup-page {
+    background-color: #F8F6F4;
+    display: inline-block;
+    justify-content: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    margin-left: 420px;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+
+#w-signup {
+    font-weight: bold;
+}
+#p-signup {
+    font-size: 13px;
+    font-weight: bold;
+}
+#name-signup {
+    font-weight: bold;
+}
+#tab-signup {
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #D2E9E9;
+    text-align: justify;
+    padding-left: 20px;
+    outline: none;
+}
+#btn-signup {
+    height: 30px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 60px;
+    border-radius: 10px;
+    border: none;
+    background-color: #D2E9E9;
+}
+#p-sgsnp {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+/* Sign-Up end */
+
+/* Profil */
+.img-profile {
+    background-color:#F8F6F4;
+    height:300px;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 18%;
+
+}
+#e-profile {
+    float: right;
+    margin-top: -60px;
+    margin-right: 50px;
+    background-color: #D2E9E9;
+    border-radius: 15px;
+    height: 20px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5px;
+    text-decoration: none;
+}
+#profil-picture {
+    border-radius: 360px;
+    background-color:#D2E9E9;
+    width: 180px;
+    height: 180px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 527px;
+   
+}
+#link-prp {
+    text-decoration: none;
+    color: black;
+}
+#nickname-title {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+#social-media {
+    height: 20px;
+    width: 20px;
+    margin-left: 605px;
+}
+/* profil-end */
+/* edit profil */
+.i2 {
+    margin-left: 50px;
+}
+#change-pic{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    background-color: #D2E9E9;
+    height: 30px;
+    width: 120px;
+    margin-left: 560px;
+    border-radius: 10px;
+}
+#file {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 530px;
+    background-color: transparent;
+}
+#tab-3 {
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-left: 400px;
+}
+#text-change1 {
+    background-color: #D2E9E9;
+    margin-left: 40px;
+    border: none;
+    height: 25px;
+    border-radius: 10px;
+    padding-left: 10px;
+    outline: none;
+}
+#text-change2 {
+    margin-left: 7.5px;
+    border: none;
+    background-color: #D2E9E9;
+    height: 25px;
+    border-radius: 10px;
+    padding-left: 10px;
+    outline: none;
+
+}
+#text-change3 {
+    border: none;
+    background-color: #D2E9E9;
+    margin-left: 5px;
+    height: 25px;
+    border-radius: 10px;
+    padding-left: 10px;
+    outline: none;
+
+}
+#bttn-chg {
+    margin-left: 570px;
+    background-color: #D2E9E9;
+    height: 30px;
+    width: 90px;
+    border: none;
+    border-radius: 10px;
+}
+/* edit profil end */
+/* Tabungan */
+
+.save-money {
+text-align: center;
+justify-content: center;
+padding-top: 30px;
+background-color: #C4DFDF;
+padding-bottom: 30px;
+}
+#jubes {
+    font-weight: bold;
+    font-size: 30px;
+}
+#p1 {
+    font-size: 15px;
+}
+#p2 {
+    font-size: 20px;
+}
+#datesv {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    width: 300px;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+.min-sv {
+    display: flex;
+    justify-content: space-evenly;
+}
+#sv1 {
+    background-color: #F8F6F4;
+    width: 120px;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 15px;
+
+}
+.min-sv2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.new-sv {
+    justify-content: center;
+    text-align: center;
+
+}
+#sv-rndm {
+    background-color: transparent;
+    padding: 10px;
+    width: 250px;
+    border-bottom: 1px solid black
+    ;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    align-items: center;
+    text-align: center;
+    outline: none;
+}
+#sv-rndm::placeholder{
+color: black;
+}
+#sv-rndm input {
+    border: none;
+    
+}
+#tabung {
+    padding: 10px;
+    width: 120px;
+    border: none;
+    background-color: #F8F6F4;
+    border-radius: 15px;
+}
+#check {
+    font-weight: bold;
+
+}
+
+/* Tabungan end */
+/* todolist */
+#date-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 460px;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    width: 300px;
+    outline: none;
+}
+.do-listname {
+    display: inline-block;
+    padding: 10px;
+    outline: none;
+}
+#list-name {
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-left: 45px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+    outline: none;
+    width: 220px;
+}
+#list-name::placeholder {
+    color: black;
+    font-size: 10px;
+    font-weight: lighter;
+}
+#to-dolist {
+    background-color: transparent;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid black;
+    margin-left: 30px;
+    width: 200px;
+    text-align: center;
+    outline: none;
+}
+#to-dolist::placeholder {
+    color: black;
+    padding-left: 20px;
+    font-weight: lighter;
+    font-size: 10px;
+
+}
+#chxbx {
+    background-color: #F8F6F4;
+    padding: 5px;
+    margin-left: 20px;
+    border: none;
+}
+#btn-list {
+    margin-left: 550px;
+    padding: 10px;
+    width: 120px;
+    background-color: #F8F6F4;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+}
+/* todolist end */
+
+/*  workouth with us */
+.ju-wo {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+#img-wo {
+    margin-top: 30px;
+    height: 370px;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 265px;
+    margin-bottom: 50px;
+    padding-right: 90px;
+    padding-left: 90px;
+}
+.wo-wm {
+    background-color: #F8F6F4;
+    width: 100px;
+    height: 100px;
+    margin-top: 25px;
+    margin-left: 37px;
+    margin-right: 20px;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+}
+#first-name {
+    color: black;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#first-name1 {
+    font-size: 10px;
+    margin-top: -10px;
+    margin-left: 80px;
+}
+#list-wo {
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    display: flex;
+    width: 80px;
+    margin-top: -5px;
+    margin-left: 5px;
+    background-color: transparent;
+    outline: none;
+}
+#list-check {
+    margin-left: 10px;
+    width: 10px;
+    height: 10px;
+}
+#first-name2 {
+    margin-top: -13px;
+    font-size: 11px;
+    margin-left: 30px;
+}
+.progress {
+    margin-top:60px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#text-prog1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+#text-prog2{
+    font-size: 17px;
+}
+#date-prog {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+    width: 200px;
+    text-align: center;
+}
+#sub-prog {
+    background-color: #F8F6F4;
+    padding: 15px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 60px;
+    border: none;
+}
+
+/* workouth with us end */
+/* Saldo Tabungan */
+.pre-cost {
+    background-color: #F8F6F4;
+    justify-content: center;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;    
+}
+#text-sum {
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+#text-cost {
+    display: inline;
+    font-weight: bold;
+}
+.feature-cost {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.save-cost {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+}
+#img-cost {
+    height: 150px;
+    width: 150px;
+}
+/* Saldo end */
+
+/* habitss */
+.h1rsp {
+    display: inline-block;
+    justify-content: center;
+}
+#judul-besar {
+    align-items: center;
+    text-align: center;
+    background-color: #F8F6F4;
+    justify-content: center;
+    padding: 20px;
+}
+#cara-mengatasi-hidup-boros {
+    margin-left: 50px;
+}
+#pendahuluan {
+    margin-left: 20px;
+    margin-right: 220px;
+
+}
+#resep-makanan {
+    margin-left: 20px;
+    margin-right: 220px;
+}
+#cek-resep {
+    background-color: #F8F6F4;
+    outline: none;
+    border: none;
+    padding: 10px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+/* habits end */
+/* resep makanan */
+.resep-masakan {}
+#judul-masakan{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-top: 1px solid black;
+    padding: 20px;
+    padding-top: 30px;
+}
+#img-masakan {
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 500px;
+    background-color: #F8F6F4;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+#recipe {
+    margin-left: 40px;
+    width: 500px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+/* resep makanan end */
+
