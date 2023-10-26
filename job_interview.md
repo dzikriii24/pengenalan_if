@@ -5,12 +5,21 @@
 
 website ini bertujuan untuk memberikan edukasi para pengguna agar perlahan mereka bisa menjalankan atau merubah pola hidup yang sehat dan lebih baik.
 
-## 1.3. Branding
+ada beberapa jenis teknologi inforamasi yang dipakai dalam pengerjaan produk teknologi informasi
 
+1. untuk database saya menggunakan MySQL
+2. Untuk tampilan website/frontend saya menggunakan HTML untuk kerangka CSS untuk menambahkan Style dan Javascript untuk menampilkan animasi dalam website tersebut
+3. untuk back and saya menggunakan PHP native
+4. untuk code editor saya menggunakan VSCode
+5. untuk desain awal menggunakan figma
+6. untuk mengerjakan semua ini saya menggunakan laptop asus yang menggunakan sistem operaasi windows
+
+## 1.3. Branding
 
 pada tahap ini saya akan mengeksplorasi branding dari produk yang saya buat.
 
 -Merk : goodHABITS
+kata goodHABITS diambil dari bahasa inggris yang artinya "kebiasaan baik" atau bisa diartikan sebagai pola hidup yang baik, sesuai dengan produk yang dibuat, yang tujuannya mengedukasi agar seseorang memiliki pola hidup yang baik
 
 -Tagline : Make your life better
 
@@ -38,8 +47,9 @@ pada tahap ini saya akan mengeksplorasi branding dari produk yang saya buat.
  
 ## Refernsi Design
 Saya mengambil referensi warna dan layout dari kedua referensi tersebut
-![reffimg](https://github.com/dzikriii24/pengenalan_if/assets/144420544/e0a766fa-a1dd-4e76-8727-29c86c49f69c)
-![refimg](https://github.com/dzikriii24/pengenalan_if/assets/144420544/d33c1721-4c06-4a08-a2ef-0d3e5b2f08a9)
+
+![referensi image](https://github.com/dzikriii24/pengenalan_if/assets/144420544/82e6dcf4-d682-407c-a9ce-01e14a80fc0f)
+![refimg](https://github.com/dzikriii24/pengenalan_if/assets/144420544/d0f4ac4c-66e1-4787-b395-8cf48cc9f410)
 
 
 ## 2. User Story
@@ -150,11 +160,25 @@ Saya menggunakan PHP NATIVE untuk merancang produk teknologi informasi.
 ## 6. Desain User Experience dan User Interface
 https://www.figma.com/file/eoIku4dRjOtSuh9BZlMG42/Untitled?type=design&node-id=0-1&mode=design&t=qMqib32rPftQH9qb-0
 
-<img width="500" alt="Screenshot 2023-10-24 221442" src="https://github.com/dzikriii24/pengenalan_if/assets/144420544/85df0a18-9940-46d9-bd69-b8c723847b4c">
+preview website
 
-<img width="524" alt="Screenshot 2023-10-24 221228" src="https://github.com/dzikriii24/pengenalan_if/assets/144420544/e431f7bf-cf96-44d1-a70e-43db7ea0cc38">
+Tampilan Awal
+![Frame 1 (1)](https://github.com/dzikriii24/pengenalan_if/assets/144420544/95a689c5-822a-4f65-967d-061abb154ba7)
 
-<img width="350" alt="Screenshot 2023-10-24 221454" src="https://github.com/dzikriii24/pengenalan_if/assets/144420544/77e56339-74a9-43cf-a0cd-eda8a12afcb0">
+Tampilan login
+![Frame 25](https://github.com/dzikriii24/pengenalan_if/assets/144420544/849e8124-642e-437a-9ba4-5f3c71403a9e)
+
+tampilan register
+![Frame 26](https://github.com/dzikriii24/pengenalan_if/assets/144420544/71ca97e1-cb3b-47f8-a851-6ff51c738399)
+
+tampilan tabungan
+![Frame 24](https://github.com/dzikriii24/pengenalan_if/assets/144420544/e3010c73-9abe-486b-b6f5-761fcfe9cb91)
+
+tampilan profil
+![Frame 28](https://github.com/dzikriii24/pengenalan_if/assets/144420544/b27e71d4-46d2-4439-af04-45df72ae3181)
+
+selebihnya ada didalam figma yang dapat diakses melalui link diatas
+
 
 
 ## 7. Demonstrasi Video
