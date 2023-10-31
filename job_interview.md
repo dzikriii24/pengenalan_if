@@ -72,7 +72,7 @@ Pengguna | Memasuki halaman resep makanan | Pengguna dapat melihat beberapa menu
 ## 3. Struktur Data
 ```mermaid
 erDiagram
-    Users ||--o{ Login : User_Login
+    Users ||--|{ Login : User_Login
     Login {
         int id_pengguna
 	var username
@@ -100,14 +100,14 @@ erDiagram
 	var username
 	string pekerjaan
 	}
-	Profil ||--o{ Edit_Profil : Pengguna-dapat-mengedit-profil
+	Profil ||--|{ Edit_Profil : Pengguna-dapat-mengedit-profil
 	Edit_Profil{
 	img ganti-foto-profil
 	var ganti-username
 	var tambah-pekerjaan
 	var tambah-social-media
 	}
-	Register ||--o{ Login : User_login_Setelah_Register
+	Register ||--|{ Login : User_login_Setelah_Register
     Users ||--o{  dapat-mengakses-beberapa-fitur-tetapi-tidak-bisa-menyimpan-data : User_tidak_Login
     Login ||--o{ AksesFitur : userDapatMengakses
 	AksesFitur {
@@ -116,28 +116,28 @@ erDiagram
 	var workout
 	var Menu_Utama
 	}
-	AksesFitur||--o{ Fitur_Tabungan: user_mengakses_fitur_yang_ada_dilaman_tabungan
+	AksesFitur||--|{ Fitur_Tabungan: user_mengakses_fitur_yang_ada_dilaman_tabungan
 	Fitur_Tabungan {
 	datetime Tanggal_Menabung
 	int jumlah-yang-ditabung
 	Data Disimpan_didatabase
 	}
 
-	AksesFitur||--o{ List_Kegiatan : user-dapat-menambahkan-jenis-kegiatan
+	AksesFitur||--|{ List_Kegiatan : user-dapat-menambahkan-jenis-kegiatan
 	List_Kegiatan {
 	var Nama_kegiatan
 	datetime Waktu_kegiatan
 	check List_Check
 	
 	}
-	AksesFitur||--o{ Workout : User-dapat-mengikuti-jadwal-workout-harian
+	AksesFitur||--|{ Workout : User-dapat-mengikuti-jadwal-workout-harian
 	Workout {
 	int rep
 	int set
 	Check Check
 	Data Progres_disimpan
 	}
-	AksesFitur ||--o{ Menu_utama : User_dapat_membaca_dimenu_utama
+	AksesFitur ||--|{ Menu_utama : User_dapat_membaca_dimenu_utama
 	Menu_utama {
 	string Artikel
 	String Resep
@@ -150,7 +150,7 @@ erDiagram
 ## 4. Arsitektur Sistem
 ```mermaid
 flowchart TD
-  Database-MySQL ==> Web_backend-JavaScript-phpNative ==> Web_Server-Apache ==> Frontend_Web:-HTML-CSS-JavaScript-phpNative
+  Database-MySQL <==> Web_backend-JavaScript-phpNative <==> Web_Server-Apache <==> Frontend_Web:-HTML-CSS-JavaScript-phpNative
 	
 ```
 ## 5. Teknologi, Library, dan Framework
