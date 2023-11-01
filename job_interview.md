@@ -68,6 +68,7 @@ Pengguna | memasukan foto profil hingga data diri  | Pengguna dapat memasukan da
 Pengguna | Mengubah foto profil hingga data diri | Pengguna dapat melakukan perubahan pada identitas diri dan foto profil tanpa adanya keterbatasan | ⭐⭐
 Pengguna | Melihat menu saldo tabungan | Pengguna dapat mengetahui jumlah pemasukan dan pengeluaran| ⭐⭐
 Pengguna | Memasuki halaman resep makanan | Pengguna dapat melihat beberapa menu mudah yang telah disarankan | ⭐
+Pengguna | Log uot | Pengguna dapat mengeluarkan akun yang terkait didalam website | ⭐
 
 ## 3. Struktur Data
 ```mermaid
